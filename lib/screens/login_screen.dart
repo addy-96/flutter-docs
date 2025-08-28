@@ -7,7 +7,7 @@ class LoginScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
-        children: [Center(child: Container(height: 10, width: 50, color: Colors.green))],
+        children: [Center(child: Container(child: Text('Googlee docs prototype.')))],
       ),
     );
   }
